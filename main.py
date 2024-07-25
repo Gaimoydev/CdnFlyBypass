@@ -236,4 +236,4 @@ with requests.session() as session:
         if not guardok:
             print("没有绕过成功")
         else:
-            print(f"guardok={guardok}")
+            print(f"guardok={guardok}") #对于5秒盾和JS验证是无效的 请自行http发请求查看
